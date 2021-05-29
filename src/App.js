@@ -7,7 +7,7 @@ import youtube from './Api/youtube';
 class App extends React.Component {
   state = {
     videos: [],
-    selectedVideo: null,
+    selectedVideo: null
   }
 
   componentDidMount() {
